@@ -17,9 +17,6 @@ reveals interesting patterns of activity. With the help
 of a "Shiny"" application, areas of volcanic activity reveal
 "hot-spots" over time.
 
-- Visualize broad ares for comparision.
-- Provides location and year of occurance.
-
 Data Source
 ========================================================
 
@@ -33,7 +30,7 @@ Data Source
 # See original dataset dimensions
 VolDat <- read.csv("Volcano.csv", header = TRUE)
 dim(VolDat)
-[1] 592   7
+[1] 424   7
 ```
 
 Summary of Volcainic Events
@@ -41,8 +38,8 @@ Summary of Volcainic Events
 ![plot of chunk unnamed-chunk-2](VolcanicActivity-figure/unnamed-chunk-2-1.png)
 ***
 - Great deal of variability between years
-- Average Elevation is 2039.3828671
-- Average Volcanic Explosivity Index (VEI) is 3.5
+- Average Elevation is 2110.1533019
+- Average Volcanic Explosivity Index (VEI) is 4
 
 Links
 ========================================================
