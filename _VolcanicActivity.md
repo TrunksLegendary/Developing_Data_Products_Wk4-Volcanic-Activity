@@ -44,7 +44,7 @@ Summary of Volcainic Events
 Links
 ========================================================
 
-- GitHub Repo: <https://github.com/dushany/DDP_Assignment_Wk4> 
-- Shiny App: <https://dushany.shinyapps.io/Earthquakes/>
+- GitHub Repo: <> 
+- Shiny App: <>
 - NOAA : <https://www.ngdc.noaa.gov/nndc/servlet/ShowDatasets?dataset=102557&search_look=50&display_look=50>
 
