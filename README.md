@@ -27,9 +27,9 @@
 Volcanic Activity
 The shiny App plots volcanic activity around the world for over a 2000 year period of time. The Shiny App includes input controls to filter and modify the plot. Below are the final products.
 
-https://link to shiny app
+https://trunks.shinyapps.io/Shiny_VolcanicVEI/ to shiny app
 
-http://link to rpubs
+http://rpubs.com/TrunksLegendary/DDPWK4 to rpubs
 
 ## Data Source
 National Geophysical Data Center / World Data Service (NGDC/WDS): 

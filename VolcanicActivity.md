@@ -44,7 +44,7 @@ Summary of Volcainic Events
 Links
 ========================================================
 
-- GitHub Repo: <> 
-- Shiny App: <>
+- GitHub Repo: <https://github.com/TrunksLegendary/developing_data_products_wk4> 
+- Shiny App: <https://trunks.shinyapps.io/Shiny_VolcanicVEI/>
 - NOAA : <https://www.ngdc.noaa.gov/nndc/servlet/ShowDatasets?dataset=102557&search_look=50&display_look=50>
 
