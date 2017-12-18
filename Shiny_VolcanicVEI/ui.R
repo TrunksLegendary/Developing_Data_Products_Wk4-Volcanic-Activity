@@ -1,8 +1,16 @@
 shinyUI(
-  # Use a fluid Bootstrap layout
+
   fluidPage(
-    # Give the page a title
+
     titlePanel("Volcanic Explosivity Index (VEI)"),
-    mainPanel(leafletOutput("map",width = "150%", height = 500))
+    
+    sidebarPanel(
+
+      h6("Use slider to filter for VEI Range"),
+      sliderInput("rangeInput","VEI",min(1),max(7), 
+                  value = c(1,7), step = 1)
+    ),
+    
+    mainPanel(leafletOutput("map",width = "100%", height = 500))
   )
 )
