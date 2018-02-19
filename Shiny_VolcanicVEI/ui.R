@@ -1,8 +1,12 @@
+# Volcanoe
 shinyUI(
-  # Use a fluid Bootstrap layout
   fluidPage(
-    # Give the page a title
     titlePanel("Volcanic Explosivity Index (VEI)"),
-    mainPanel(leafletOutput("map",width = "150%", height = 500))
+    sidebarLayout(
+      sidebarPanel(
+        sliderInput("rangeInput","VEI", min(1), max=(7),value = c(1,7))),   
+      
+    mainPanel(leafletOutput("map",width = "100%", height = 400))
+    )
   )
 )
